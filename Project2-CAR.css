@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "YoungSerif";
+  src: url("YoungSerif-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: rgb(124, 70, 124);
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+}
+.all {
+  display: flex;
+  flex-direction: row; /* Stack vertically by default - grid */
+  text-align: left;
+  padding: 200px;
+  width: 400px;
+  margin: 100px;
+}
+@media (max-width: 768px) {
+  .all {
+    flex-direction: column; /* Stack horizontally on smaller screens */
+    max-width: 400px;
+    border-radius: 0px;
+  }
+}
+.Sedans {
+  background-color: rgb(43, 6, 43);
+  color: rgba(255, 255, 255, 0.76);
+  max-width: 800px; /* Keeps recipes within a fixed width */
+  margin: 0 auto; /* Centers the container on the page */
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.Luxury {
+  background-color: rgb(73, 1, 73);
+  color: rgba(255, 255, 255, 0.76);
+  max-width: 800px; /* Keeps recipes within a fixed width */
+  margin: 0 auto; /* Centers the container on the page */
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.SUV {
+  background-color: rgb(54, 9, 54);
+  color: rgba(255, 255, 255, 0.76);
+  max-width: 800px; /* Keeps recipes within a fixed width */
+  margin: 0 auto; /* Centers the container on the page */
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+img {
+  float: left; /* Float align image */
+  width: 40px;
+  margin: 20px;
+}
+p {
+  padding-right: 50px;
+  margin: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+b {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+button {
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px;
+  color: rgb(43, 6, 43);
+}
+.up {
+  padding-top: 40px;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
